@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <main>
+      <h1><%= title %></h1>
+      <p>Bem vindo(a) ao <strong><%= title %></strong></p>
+    </main>
+    <footer>
+        <p><strong>Aeroportos:</strong></p>
+        <ul>
+          <% aeroportos.forEach(function(aeroporto) { %>
+            <li>
+                <%= aeroporto %>
+            </li>
+        <% }); %>
+        </ul>
+
+    </footer>
+  </body>
+</html>

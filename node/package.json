@@ -1,0 +1,30 @@
+{
+  "name": "simucharter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlborges/simucharter.git"
+  },
+  "keywords": [
+    "flight",
+    "simulator",
+    "charter"
+  ],
+  "author": "Wellington Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wlborges/simucharter/issues"
+  },
+  "homepage": "https://github.com/wlborges/simucharter#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "react-dev-utils": "^12.0.0"
+  }
+}

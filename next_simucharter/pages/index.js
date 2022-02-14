@@ -1,0 +1,13 @@
+var aeroportos = ["SBAC","SBAE","SBAF","SBAN","SBAQ","SBAR","SBAT","SBAU","SBAX","SBBE","SBBG","SBBH","SBBI","SBBP","SBBQ","SBBR","SBBU","SBBV","SBBW","SBCA","SBCB","SBCC","SBCF","SBCG","SBCH","SBCI","SBCJ","SBCN","SBCO","SBCP","SBCR","SBCT","SBCX","SBCY","SBCZ","SBDB","SBDN","SBDO","SBEG","SBEK","SBEN","SBES","SBFI","SBFL","SBFN","SBFS","SBFZ","SBGL","SBGM","SBGO","SBGP","SBGR","SBGV","SBGW","SBHT","SBIH","SBIL","SBIP","SBIT","SBIZ","SBJA","SBJC","SBJD","SBJE","SBJF","SBJH","SBJI","SBJP","SBJR","SBJU","SBJV","SBKG","SBKP","SBLB","SBLI","SBLJ","SBLO","SBLP","SBLS","SBMA","SBMD","SBME","SBMG","SBMI","SBMK","SBML","SBMM","SBMN","SBMO","SBMQ","SBMS","SBMT","SBNF","SBNM","SBNT","SBNV","SBOI","SBPA","SBPB","SBPC","SBPF","SBPG","SBPJ","SBPK","SBPL","SBPO","SBPP","SBPR","SBPS","SBPV","SBPW","SBQI","SBRB","SBRC","SBRD","SBRF","SBRJ","SBRP","SBSC","SBSG","SBSI","SBSJ","SBSL","SBSM","SBSN","SBSO","SBSP","SBSR","SBST","SBSV","SBTA","SBTB","SBTC","SBTD","SBTE","SBTF","SBTS","SBTT","SBTV","SBUA","SBUF","SBUG","SBUL","SBUR","SBUY","SBVC","SBVG","SBVH","SBVT","SBWA","SBWB","SBWE","SBWF","SBWG","SBWH","SBWI","SBWJ","SBWK","SBWM","SBWN","SBWP","SBWR","SBWT","SBWV","SBWY","SBWZ","SBXF","SBXM","SBXN","SBXO","SBXP","SBXQ","SBXR","SBXS","SBXT","SBXX","SBYS","SBZM","SDAG","SDAI","SDAM","SDCO","SDPW","SDPY","SDSC","SNCP","SNCW","SNDR","SNGI","SNGS","SNML","SNXX","SSAY","SSGG","SSHH","SSIE","SSIM","SSKG","SSKT","SSKW","SWFN","SWFR","SWLV","SWRO","SWUQ"]
+
+export default function Home() {
+  return (
+    <div>
+      <ul>
+        {aeroportos.map((aeroporto) => (
+          <li>{aeroporto}</li>
+        ))}
+      </ul>
+    </div>
+  )
+}
